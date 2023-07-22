@@ -2,7 +2,7 @@
 
 public class ProductAccessDeniedException : NadinSoftException
 {
-    public ProductAccessDeniedException() : base(ExceptionsMessage.Product.AccessDenied, 404)
+    public ProductAccessDeniedException() : base(ExceptionsMessage.Product.AccessDenied, 403)
     {
     }
 }

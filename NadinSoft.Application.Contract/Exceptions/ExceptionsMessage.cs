@@ -6,7 +6,7 @@ public class ExceptionsMessage
     {
         public const string DuplicatedProduct = "همچین محصولی با ManufactureEmail و ProductDate وجود دارد.";
         public const string NotFoundProduct = "همچین محصولی یافت نشد";
-        public const string AccessDenied = "شما این محصول را ایجاد نکرده اید.نمی توانید آنرا تغیر یا مشاهده دهید";
+        public const string AccessDenied = "شما این محصول را ایجاد نکرده اید.نمی توانید آنرا تغیر دهید";
         public static class CreateModel
         {
             public const string NameLengthError = "نام نباید بیش از 256 حرف باشد";

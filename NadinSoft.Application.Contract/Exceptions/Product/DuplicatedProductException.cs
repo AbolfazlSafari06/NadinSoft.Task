@@ -2,7 +2,7 @@
 
 public class DuplicatedProductException : NadinSoftException
 {
-    public DuplicatedProductException() : base(ExceptionsMessage.Product.DuplicatedProduct,400)
+    public DuplicatedProductException() : base(ExceptionsMessage.Product.DuplicatedProduct,409)
     {
     }
 }
