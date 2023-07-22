@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NadinSoft.Application\NadinSoft.Application.csproj" />
     <ProjectReference Include="..\NadinSoft.Infrastructure\NadinSoft.Infrastructure.csproj" />
   </ItemGroup>
 
