@@ -1,4 +1,6 @@
-﻿namespace NadinSoft.Domain.Entities.ProductAgg;
+﻿using NadinSoft.Domain.Entities.UserAgg;
+
+namespace NadinSoft.Domain.Entities.ProductAgg;
 
 public class Product : BaseEntity
 {
@@ -6,15 +8,17 @@ public class Product : BaseEntity
     public string ManufacturePhone { get; set; }
     public string ManufactureEmail { get; set; }
     public bool IsAvailable { get; set; }
-    public DateTime ProduceDate { get; set; } 
-
-    public Product(string name, string manufacturePhone, string manufactureEmail, bool isAvailable, DateTime produceDate)
+    public DateTime ProduceDate { get; set; }
+    public string UserId { get; set; }
+    public ApplicationUser User { get; set; }
+    public Product(string name, string manufacturePhone, string manufactureEmail, bool isAvailable, DateTime produceDate,string userId)
     {
         Name = name;
         ManufacturePhone = manufacturePhone;
         ManufactureEmail = manufactureEmail;
         IsAvailable = isAvailable;
-        ProduceDate = produceDate; 
+        ProduceDate = produceDate;
+        UserId = userId;
     }
 
     public void SetName(string value)
