@@ -88,7 +88,7 @@ public class ProductController : ControllerBase
             var product = await _mediator.Send(new CreateProductCommand { UserId = userId,CreateProductDto = command });
             var result = new ResponseObject<ProductDto>()
             {
-                StatusCode = 200,
+                StatusCode = 201,
                 Data = product,
                 IsSucceed = true,
             };
