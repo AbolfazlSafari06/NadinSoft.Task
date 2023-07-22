@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NadinSoft.Application", "Na
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NadinSoft.Infrastructure", "NadinSoft.Infrastructure\NadinSoft.Infrastructure.csproj", "{305A1922-8A71-4948-8BEC-183116A38210}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{43836231-AE0D-4F28-8897-7F821D8BC178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NadinSoft.Domain.Test", "NadinSoft.Domain.Test\NadinSoft.Domain.Test.csproj", "{F9A0A33A-8880-4037-AA76-A5ABF561D0BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{305A1922-8A71-4948-8BEC-183116A38210}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{305A1922-8A71-4948-8BEC-183116A38210}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{305A1922-8A71-4948-8BEC-183116A38210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A0A33A-8880-4037-AA76-A5ABF561D0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A0A33A-8880-4037-AA76-A5ABF561D0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A0A33A-8880-4037-AA76-A5ABF561D0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A0A33A-8880-4037-AA76-A5ABF561D0BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,8 @@ Global
 		{D5F06BCE-F930-41FD-971F-1DE39F739C05} = {F32029EC-A03C-43ED-8596-EA7222F45F2D}
 		{CB1007C7-26EF-4EF2-96AD-6FB26A98CDFF} = {F32029EC-A03C-43ED-8596-EA7222F45F2D}
 		{305A1922-8A71-4948-8BEC-183116A38210} = {F32029EC-A03C-43ED-8596-EA7222F45F2D}
+		{43836231-AE0D-4F28-8897-7F821D8BC178} = {6A1A04AA-DA90-48A1-A848-7DCAA817A59E}
+		{F9A0A33A-8880-4037-AA76-A5ABF561D0BF} = {43836231-AE0D-4F28-8897-7F821D8BC178}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {203D61FF-3808-42B7-A09F-A8843D1AA84A}
