@@ -26,8 +26,8 @@ builder.Services.AddDbContext<NadinSoftContext>(options =>
 {
     options.UseSqlServer(connectionString);
 });
-DatabaseUnsure.InitializeConnectionString(connectionString);
-DatabaseUnsure.EnsureDatabaseExist();
+DatabaseChecker.InitializeConnectionString(connectionString);
+DatabaseChecker.CheckDatabaseExistOrCreate();
 
 
 
